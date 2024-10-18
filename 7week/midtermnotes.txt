@@ -1,0 +1,89 @@
+Modeling
+
+simplified representation of reality:
+- make prediction when direct measurment difficult
+- understand variable relationships
+- derive insights
+- optimize decisions based on predicted outcomes
+
+Types of models (right model depend on problem, data available and need for interpretability)
+- Deterministic = outcome precisely determined, known relationship (Y = f(X)) (correlation)
+- Probabilistic = randomness in prediction (Y = f(X) + e) (linear regression)
+- Parametric:
+    - specific functional form
+    - simpler but may miss complex patterns (linear regression)
+    - clear hypothesis about variables relationship 
+- Non Parametric: 
+    - no specific functional form
+    - more flexible but require more data (decision tree)
+    - want to discover complec patterns without strong assumptions
+
+f(X) systematic relationship between X and Y
+- crucial to accurately estimate = reliable prediction / inference
+- even when perfect, still have some error because of e
+
+Types of Error:
+- Reductible: imperfect modeling, reduced by improving model
+- Irreductible: inherent randomness, cannot be eliminated
+
+More complex:
+- can capture intricate patterns
+- migh be offer higher accuracy
+- might be less interpretable
+- too complex = overfitting, captures noise rather than underlying pattern
+
+
+AI
+
+simulation human intelligence by machines:
+- learning: acquiring information / rules
+- reasoning: use rule reach approximate / definite conclusion
+- self correction: improving system's accuracy overtime
+
+Statistical models (linear regression):
+- use equation to represent relationship, probability
+- used to infer relationship / predict outcomes based on historical data
+- relies on assumption about data distribution (normal distribution)
+- involves closed form mathematical solution
+- used for both prediction / inference
+
+Machine learning model
+- subset of AI, systems which learn / make decision based on data
+- require large amout of data
+- focus more on prediction accuracy than inference
+- data-driven approach that often doesnt require explicit programming
+- supervised, unsupervised, reinforcement learning paradigms
+- can handle complex / high dimensional data
+
+Deep learning model
+- subset of ML, use neural network with layers to learn representation of data
+- effective in handling unstructured data (image, audio, text)
+- composed of multiple layer of neuron, learn and extract more and more abstract features
+- require large amount of data and computional power
+
+=========================================================================
+
+Programming langage data science
+
+Python : simple, readable, extensive librairy for data manip / visu / ml
+R : stat analysis / visualisation, strong package for stat
+SQL : manage / query db
+Julia : high perf for numerical / sci computing
+Java/Scala : used in big data tech like apache spark
+Matlab : engineering and sci computation
+
+Python:
+- easy to learn
+- rich librairy
+- community support
+- versatility
+
+Jupyter Notebook:
+- Interactive environment
+- Ease of use
+- Rich media support
+- Broad language support
+- Sharing and collaboration
+- Step by step execution
+- Doc within code
+- Integration with visualization tools
